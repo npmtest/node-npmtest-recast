@@ -1,4 +1,7 @@
-# test coverage for  [recast (v0.12.3)](http://github.com/benjamn/recast)  [![npm package](https://img.shields.io/npm/v/npmtest-recast.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-recast) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-recast.svg)](https://travis-ci.org/npmtest/node-npmtest-recast)
+# npmtest-recast
+
+#### basic test coverage for  [recast (v0.12.3)](http://github.com/benjamn/recast)  [![npm package](https://img.shields.io/npm/v/npmtest-recast.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-recast) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-recast.svg)](https://travis-ci.org/npmtest/node-npmtest-recast)
+
 #### JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator
 
 [![NPM](https://nodei.co/npm/recast.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/recast)
@@ -95,7 +98,8 @@
         "debug": "node ./node_modules/mocha/bin/mocha --debug-brk --reporter spec",
         "test": "node ./node_modules/mocha/bin/mocha --reporter spec --full-trace"
     },
-    "version": "0.12.3"
+    "version": "0.12.3",
+    "bin": {}
 }
 ```
 
